@@ -1,5 +1,5 @@
 print("xcxx")
-print(BUILD_NUMBER)
+
 f=open('file.txt','w')
-f.write(f'jenkins job: {BUILD_NUMBER}')
+f.write('test')
 f.close()
